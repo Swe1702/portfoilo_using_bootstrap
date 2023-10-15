@@ -1,0 +1,29 @@
+/* css for nav bar */
+.customNav {
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: #0b464f !important;
+  }
+  /* css for change in text color  */
+  .customNav a {
+    color: white !important;
+  }
+  /* css for the list item to align right */
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  /* css for name */
+  .navbar-brand{
+    background-color: rgb(71, 194, 194);
+    font-size:xx-large;
+  }
+  /* css for small image beside my name */
+  .navbar-brand img {
+    width: 50px;
+  }
+  /* this is for space between the list items */
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
