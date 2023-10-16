@@ -26,4 +26,68 @@
   .nav-item {
     margin: 0px 15px;
   }
+  /* Jumbotron  */
+.rockBackground {
+    background-image: url(https://images.unsplash.com/photo-1531315630201-bb15abeb1653?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+    background-size: cover;
+    height: calc(20vh - 25px);
+    display: flex;
+    position: relative;
+  }
   
+  /* Jumbotron copy */
+  .jumboCopy {
+    display: flex;
+    min-width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 1150px;
+  }
+  /* This is css for the image*/
+  .image{
+    height: 100px;
+    display: flex;
+    width: 230px;
+    padding-left: 30px;
+  }
+  /* this is for styling About me */
+  .col-2 p{
+    text-align: right;
+    padding-top: 35px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .col-7 p{
+    text-align: justify;
+    width: 970px;
+  }
+ /* css for work */
+.col p{
+  padding-top: 35px;
+  font-size: larger;
+  font-weight: bolder;
+}
+/* for vertical line */
+.vr{
+  padding: 2px;
+}
+/* css for image 1 */
+.img1{
+  width: 1200px;
+  height: 300px;
+  margin-left: 30px;
+}
+/* css for image 2 */
+.img2{
+  width: 600px;
+  height: 200px;
+  margin-left: 40px;
+}
+.img3{
+  width: 600px;
+  height: 200px;
+  padding-left: 0px;
+}
+.col-6{
+  padding: 0px;
+}
