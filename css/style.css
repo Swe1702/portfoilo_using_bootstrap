@@ -93,6 +93,12 @@
   margin-left: 12px;
   margin-bottom: 25px;
 }
+
+/*Adds hover effect to images */
+.hvr:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
 /* for removing padding for column grid*/
 .col-6{
   padding: 0px;
