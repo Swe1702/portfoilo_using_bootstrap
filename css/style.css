@@ -51,10 +51,10 @@
     padding-left: 30px;
   }
   /* this is for styling About me */
-  .col-2 p{
+  .col-2 h3{
     text-align: right;
     padding-top: 35px;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bolder;
   }
   /* this is for text alignment */
@@ -97,12 +97,19 @@
 .col-6{
   padding: 0px;
 }
-/* for bottom space between image2 and image3 */
-/* img[src*="my resume"],img[src*="portfolio-2"]{
-  margin-bottom: 25px;
-} */
-/* for bottom space between image4 and image5 */
-/* img[src*="portfolio-3"],img[src*="portfolio-4"]{
-  margin-bottom: 0px;
-} */
+/* for alining footer elements horizontal */
+.footer li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 40px;
+  padding-top: -140px;;
+}
+/* This is to remove underline for footer elements */
+a{
+  text-decoration: none;
+}
+.footer {
+  margin-top: -35px;
+}
+
 

@@ -16,13 +16,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About me</a>
+                <a class="nav-link active" aria-current="page" href="#Aboutme">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact me</a>
+                <a class="nav-link active" aria-current="page" href="#contactme">Contact me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Work experience</a>
+                <a class="nav-link active" aria-current="page" href="#work">Work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Resume</a>
@@ -41,8 +41,8 @@
 <!--contsiners-->
 <div class="container-fluid"><!--created div with class name -->
     <div class="row"><!--created div with class row-->
-        <div class="col-2"><!--created div with class column which occupies 2 spaces-->
-            <p>About me</p>
+        <div class="col-2" id="Aboutme"><!--created div with class column which occupies 2 spaces-->
+            <h3>About me</h3>
         </div>
         <div class="vr"></div><!--for vertical line-->
         <div class="col-2 mb-4"><!--Added column with 10 spaces and and gave margin bottom-->
@@ -55,10 +55,10 @@
 <!-- work container-->
 <div class="container-fluid mt-4"><!--created div with class name and margin top-->
   <div class="row"><!--created div with class row-->
-    <div class="col-2"><!--created div with class column which occupies 2 spaces-->
-      <p>Work</p>
+    <div class="col-2" id="work"><!--created div with class column which occupies 2 spaces-->
+      <h3>Work</h3>
     </div>
-    <div class="vr"></div><!--for vertical line-->
+    <div class="vr mb-4"></div><!--for vertical line-->
     <div class="col mb-4"><!--Added column with 10 spaces and and gave margin bottom-->
       <a href="https://swe1702.github.io/horisen_modified_webpage/" target="_blank"><img src="./images/new project.jpg.jpg" alt="img1" class="img1"></a><!--added image1 and linked my to first project. Added img tag and alt attribute-->
     <div class="row ">
@@ -80,6 +80,30 @@
     </div>
   </div>
 </div>
-    
+<div class="container-fluid"><!--created div with class name -->
+    <div class="row text-center">
+        <div class="col-2 md-3" id="contactme"><!--added class name and id for navigation.made it responsive-->
+            <h3>Contact me</h3>
+        </div>
+        <div class="vr"></div><!--for vertical line-->
+       <div class="col-10 md-3"><!--created div with class column which occupies 10 spaces-->
+          <ul class="footer">
+            <li >
+              <a href="#mail">jhanu312@gmail.com</a><!--added mail and linked-->
+            </li>
+            <li >
+              <a href="https://github.com/Swe1702" target="_blank">my github</a><!--added my github profile and linked it-->
+            </li>
+            <li >
+              <a href="#phone">07467162113</a><!--added my number-->
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/swetha-kothandan" target="_blank">linkedin</a><!--added my linkedin profile and linked it-->
+            </li>
+          </ul>
+       </div>
+    </div>
+</div>
+
 </body>
 </html>
